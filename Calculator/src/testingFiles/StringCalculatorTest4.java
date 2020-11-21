@@ -24,7 +24,7 @@ class StringCalculatorTest4 {
 		assertEquals(3,StringCalculator4.Add("1,2"));
 	}
 	
-//	@Test
+//	@Test    //commented for the purpose of next run
 //	public final void moreThanTwoValue() {
 //		Assertions.assertThrows(RuntimeException.class, () -> StringCalculator4.Add("1,2,3"));
 //	} 
