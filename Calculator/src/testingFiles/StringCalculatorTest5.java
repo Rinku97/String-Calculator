@@ -41,6 +41,6 @@ class StringCalculatorTest5 {
 	
 	@Test
 	public final void throwExceptionWhenNegativeNumberOccured() {
-		Assertions.assertThrows(RuntimeException.class, () -> StringCalculator5.Add("3,-6,15,18,46,33"));
+		Assertions.assertThrows(RuntimeException.class, () -> StringCalculator5.Add("10,5,55,-1"));
 	}
 }
